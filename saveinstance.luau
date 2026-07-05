@@ -3783,7 +3783,22 @@ local function synsaveinstance(CustomOptions, CustomOptions2)
 											end
 										end
 
-										value = "-- Made by: Void Decompiles! Join to Copy Games! (https://discord.gg/PDvWTCa5Ef)"
+                                        value = [[
+                                        --██    ██  ██████  ████████ ██████
+                                        --██    ██ ██    ██    ██    ██   ██ 
+                                        --██    ██ ██    ██    ██    ██   ██ 
+                                        -- ██  ██  ██    ██    ██    ██   ██ 
+                                        --  ████    ██████  ████████ ██████
+                                        --
+                                        --██████  ███████  ██████  ███████  ███    ███ ██████  ██ ██      ███████ ██████  
+                                        --██   ██ ██      ██       ██   ██  ████  ████ ██   ██ ██ ██      ██      ██   ██  
+                                        --██   ██ █████   ██       ██   ██  ██ ████ ██ ██████  ██ ██      █████   ██████  
+                                        --██   ██ ██      ██       ██   ██  ██  ██  ██ ██      ██ ██      ██      ██   ██ 
+                                        --██████  ███████  ██████  ███████  ██      ██ ██      ██ ███████ ███████ ██   ██
+                                        --
+                                        -- Void Decompiler made by Void
+                                        -- Void Decompiles Discord: https://discord.gg/PDvWTCa5Ef
+                                        ]]
 											.. (hasLinkedSource and "-- Original Source: https://assetdelivery.roblox.com/v1/asset/?" .. (LinkedSource_type or "id") .. "=" .. (LinkedSource or LinkedSource_Url) .. "\n\n" or "")
 											.. value
 									end
